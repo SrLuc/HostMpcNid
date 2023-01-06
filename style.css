@@ -23,9 +23,17 @@ body {
 /*Cabeçalho Bootstrap*/
 .navbar {
 	display: inline-block;
-	border-radius: 10px;
-	margin: 5px;
+	/* border-radius: 10px; */
+	/* margin: 2.5px; */
 	padding: 15px;
+	box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+	background-color: white;
+}
+
+/*Logo do Nid2*/
+.logonid2{
+	padding: .25em;
+	width: 100px;
 }
 
 /*Titulo e Texto da Pagina*/
