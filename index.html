@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,6 +13,7 @@
 		defer></script>
 	<script src="script.js" defer></script>
 </head>
+
 <body>
 	<!--Cabeçalho da Página-->
 	<header>
@@ -91,7 +93,7 @@
 				</div>
 			</div>
 		</section>
-		<!--Segunda Seção do Main-->
+		<!--Segunda Seção do Main e Formulário-->
 		<section>
 			<div class="b-example-divider"></div>
 			<div class="container px-4 py-5" id="custom-cards">
@@ -185,45 +187,43 @@
 					<form class="row g-3">
 						<div>
 							<label for="inputName" class="form-label">Nome Completo</label>
-							<input name="nome" type="name" class="form-control" id="inputNome"
+							<input name="Nome Completo" type="name" class="form-control" id="inputNome"
 								placeholder="seu nome completo">
 						</div>
 						<div>
-							<label for="inputAge" class="form-label">Idade</label>
-							<input name="age" type="date" class="form-control">
+							<label for="inputAge" class="form-label">Data de Nascimento</label>
+							<input name="Data de Nascimento" type="date" class="form-control">
 						</div>
 						<div>
 							<label for="inputEmail" class="form-label">Email</label>
-							<input name="email" type="email" class="form-control" placeholder="email@gmail.com">
+							<input name="Email" type="email" class="form-control" placeholder="email@gmail.com">
 						</div>
 						<div>
 							<label for="inputNumber" class="form-label">Número para Contato</label>
-							<input name="number" type="number" class="form-control" id="inputNumber"
-								placeholder="+55(XX)XXXXX-XXXX">
+							<input name="Número para Contato" type="text" class="form-control" id="inputNumber"
+								placeholder="(81)XXXXX-XXXX">
 						</div>
 						<div>
 							<label for=" inputAddress2" class="form-label">Endereço</label>
-							<input name="address" type="text" class="form-control" id="inputAddress2"
+							<input name="Endereço" type="text" class="form-control" id="inputAddress2"
 								placeholder="Rua Vigário Tenório">
+							<label for="inputAddress" class="form-label">Cidade</label>
+							<input name="Endereço" type="text" class="form-control" id="inputAddress"
+								placeholder="Recife">
 							<label for="inputComplement" class="form-label">Complemento</label>
-							<input name="Complement" type="text" class="form-control" id="inputComplement"
+							<input name="Complemento" type="text" class="form-control" id="inputComplement"
 								placeholder="Apt nº135">
 
 						</div>
 						<div>
-							<label for="inputAddress" class="form-label">Cidade</label>
-							<input name="address" type="text" class="form-control" id="inputAddress"
-								placeholder="Cidade do Recife">
-						</div>
-						<div>
-							<label for="inputSchool" class="form-label">Escolaridade</label>
+							<label name="Escolaridade" for="inputSchool" class="form-label">Escolaridade</label>
 							<select id="inputSchool" class="form-select">
-								<option selected>Fudamental...</option>
+								<option selected>...</option>
 								<option>Fudamental Em Andamento</option>
 								<option>Fudamental Completo</option>
 								<option>Ensino Médio Em Andamento</option>
 								<option>Ensino Médio Completo</option>
-								<option>Prefiro não Esclarecer</option>
+								<option>Nível Superior em Andamento</option>
 							</select>
 						</div>
 						<div>
@@ -234,7 +234,7 @@
 						</div>
 						<div class="descricao">
 							<div class="form-group">
-								<label for="exampleFormControlTextarea1">Nos fale um pouco sobre Você!</label>
+								<label for="exampleFormControlTextarea1">Nos deixe um comentário sobre Você!</label>
 								<textarea name="message" class="form-control" id="exampleFormControlTextarea1"
 									rows="4"></textarea>
 							</div>
@@ -251,7 +251,7 @@
 						<div class="btn-sub">
 							<div class="btn-div">
 								<input type="hidden" name="_captcha" value="false">
-								<input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#">
+								<input type="hidden" name="_next" value="https://nid.movimentoprocrianca.org.br">
 								<button type="submit" onclick="alertFormPSI()" class="bt">Enviar</button>
 							</div>
 							<span class="war-desc">
