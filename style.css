@@ -289,8 +289,8 @@ iframe {
 
 @media screen and (max-width:890px) {
 	.wh-fd-mpc{
-		margin-left: 0 auto
-		margin-top:	3%
+		margin-left: 0 auto;
+		margin-top:	3%;
 	}
 
 	iframe{
