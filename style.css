@@ -32,7 +32,11 @@ body {
 
 /*Logo do Nid2*/
 .logonid2{
-	padding: .25em;
+	width: 100px;
+}
+
+.logompc2 {
+	margin-left: 15px;
 	width: 100px;
 }
 
