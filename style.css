@@ -32,7 +32,11 @@ body {
 
 /*Logo do Nid2*/
 .logonid2{
-	padding: .25em;
+	width: 100px;
+}
+
+.logompc2 {
+	margin-left: 15px;
 	width: 100px;
 }
 
@@ -84,6 +88,7 @@ form {
 /*Titulo do Forumlário*/
 .form-title {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 	text-align: center;
 	margin-bottom: 5%;
@@ -166,14 +171,6 @@ form {
 	
 }
 
-/*iframe do MPC*/
-iframe {
-	/* box-shadow: 0px 0px 5px 1px #8a8a8a; */
-	margin-top: 5%;
-	border-radius: 10px;
-	border: outset 1px solid gray;
-}
-
 /*Descrição sobre voce*/
 .descricao{
 	margin-top: 1%;
@@ -185,3 +182,143 @@ iframe {
 	margin-top: 4%;
 	color: gray;
 }
+
+footer p {
+	display: flex;
+	justify-content: center;
+	min-width: 100%;
+	margin-top: 20px;
+}
+/* .wh-fd-mpc{
+	border: 1px solid red;
+} */
+
+
+/*iframe do MPC*/
+iframe {
+	/* box-shadow: 0px 0px 5px 1px #8a8a8a; */
+	margin-top: 5%;
+	border-radius: 10px;
+	border: outset 1px solid gray;
+	width:550px; 
+	height:450px;
+}
+
+/*Responsividad de Mapa Iframe*/
+@media screen and (max-width:1350px) {
+	.wh-fd-mpc{
+		margin-left: 0%;
+		margin-top:	3%
+	}
+
+	iframe{
+		width:500px; 
+		height:400px;
+	}
+}
+
+@media screen and (max-width:1320px) {
+	.wh-fd-mpc{
+		margin-left: 0%;
+		margin-top:	3%
+	}
+
+	iframe{
+		width:500px; 
+		height:400px;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	.wh-fd-mpc{
+		margin-left: 5%;
+		margin-top:	3%
+	}
+
+	iframe{
+		width:480px; 
+		height:400px;
+	}
+
+}
+
+@media screen and (max-width:1084px) {
+	.wh-fd-mpc{
+		margin-left: 5%;
+		margin-top:	3%
+	}
+
+	iframe{
+		width:450px; 
+		height:380px;
+	}
+}
+
+@media screen and (max-width:1020px) {
+	.wh-fd-mpc{
+		margin-left: 6%;
+		margin-top:	3%
+	}
+
+	iframe{
+		width:420px; 
+		height:380px;
+	}
+}
+
+@media screen and (max-width:930px) {
+	.wh-fd-mpc{
+		margin-left: 6%;
+		margin-top:	3%
+	}
+
+	iframe{
+		width:400px; 
+		height:360px;
+	}
+}
+
+
+@media screen and (max-width:890px) {
+	.wh-fd-mpc{
+		margin-left: 6%;
+		margin-top:	3%
+	}
+
+	iframe{
+		width:370px; 
+		height:360px;
+	}
+}
+
+@media screen and (max-width:890px) {
+	.wh-fd-mpc{
+		margin-left: 0 auto;
+		margin-top:	3%;
+	}
+
+	iframe{
+		width:350px; 
+		height:360px;
+	}
+}
+
+@media screen and (max-width:770px) {
+	.wh-fd-mpc{
+		margin-left:0;
+		margin-top:	3%;
+	}
+
+	iframe{
+		width:500px; 
+		height:400px;
+	}
+}
+
+
+
+
+
+
+
+
