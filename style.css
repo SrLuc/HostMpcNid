@@ -179,14 +179,12 @@ form {
 	color: gray;
 }
 
-<<<<<<< Updated upstream
 footer p {
 	display: flex;
 	justify-content: center;
 	min-width: 100%;
 	margin-top: 20px;
 }
-=======
 /* .wh-fd-mpc{
 	border: 1px solid red;
 } */
@@ -203,6 +201,18 @@ iframe {
 }
 
 /*Responsividad de Mapa Iframe*/
+@media screen and (max-width:1350px) {
+	.wh-fd-mpc{
+		margin-left: 0%;
+		margin-top:	3%
+	}
+
+	iframe{
+		width:500px; 
+		height:400px;
+	}
+}
+
 @media screen and (max-width:1320px) {
 	.wh-fd-mpc{
 		margin-left: 0%;
@@ -308,4 +318,3 @@ iframe {
 
 
 
->>>>>>> Stashed changes
