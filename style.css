@@ -48,8 +48,23 @@ body {
 }
 
 /*Titulo e Texto da Pagina*/
-.mainTitleTex {
-  padding: 5%;
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.title-cursos {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.lead {
+  margin-top: 25px;
 }
 
 /*Cabeçalho Sidebar*/
@@ -78,6 +93,10 @@ body {
 /*Informações sobre o Movimento pro Criança*/
 .container-featurettes {
   padding: 1.5%;
+}
+
+.fw-normal {
+  margin-top: 20%;
 }
 
 /*Formulario do Psicosocial*/
