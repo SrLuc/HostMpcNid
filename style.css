@@ -126,7 +126,7 @@ form {
 	margin-right: 5%;
 }
 
-/*Logo raymundo da fonte*/
+/*Logo Divina Pharma da fonte*/
 .img-footer-dp {
 	width: 10%;
 	height: 10%;
@@ -145,6 +145,25 @@ form {
 	width: 15%;
 	height: 10%;
 	margin-right: 5%;
+}
+
+/* Adicionando filtro cinza nas logos do rodapé e colocando uma transição de 0.7seg */
+.img-footer-dp,
+.img-footer-mpc,
+.img-footer-nid,
+.img-footer-rdf {
+	filter: grayscale(100%);
+	transition: .7s;
+}
+
+/* Retirando o filtro cinza quando o mouse passar por cima e aproximando as logos */
+.img-footer-dp:hover,
+.img-footer-mpc:hover,
+.img-footer-nid:hover,
+.img-footer-rdf:hover {
+	filter: grayscale(0%);
+	transform: scale(1.2);
+	
 }
 
 /*iframe do MPC*/
