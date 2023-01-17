@@ -18,7 +18,7 @@ btn.addEventListener("click", function(e){
     if (value == "Piedade"){
         document.getElementById('form').action = 'https://formsubmit.co/claudioandrade.nid@gmail.com';
     }
-    if (value == "Recife"){
+    if (value == "Recife" || 'Recife Antigo'){
         document.getElementById('form').action = 'https://formsubmit.co/ruanlucenaramos@gmail.com';
     }
 })
