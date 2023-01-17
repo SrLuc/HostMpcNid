@@ -10,20 +10,42 @@ body {
   height: 100%;
 }
 
-.img-app{
-  mar
+/*Texto dos cartoes dos cursos oferecidos*/
+.text-card {
+  color: red;
+}
+
+/*Cro dos cartoes dos cursos oferecidos*/
+.rounded-4 {
+  transition: .5s;
+  background-color: rgb(10, 16, 16);
+  color: whitesmoke;
+}
+
+.rounded-4:hover {
+  transition: .5s;
+  background-color: rgb(63, 138, 218);
+  color: #f1f1f1;
+}
+
+.img-app {
   width: 600px;
   height: 400px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-  border-radius: 8px;  
+  border-radius: 8px;
 }
 
-.img-app-3{
+.text-bg-dark {
+  background-image: none;
+  background-color: darkslateblue;
+}
+
+.img-app-3 {
   margin-right: 20px;
   width: 750px;
   height: 369px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-  border-radius: 8px;  
+  border-radius: 8px;
 }
 
 /*Raiz de Variáveis*/
@@ -53,13 +75,13 @@ body {
   width: 100px;
 }
 
-.logonid2{
-	width: 100px;
+.logonid2 {
+  width: 100px;
 }
 
 .logompc2 {
-	margin-left: 15px;
-	width: 100px;
+  margin-left: 15px;
+  width: 100px;
 
 }
 
