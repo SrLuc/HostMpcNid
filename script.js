@@ -13,7 +13,7 @@ btn.addEventListener("click", function(e){
     console.log(value);
 
     if (value == "Coelhos"){
-        document.getElementById('form').action = 'https://formsubmit.co/cllaudio128@gmail.com';
+        document.getElementById('form').action = 'https://formsubmit.co/jeanfraça.nid@gmail.com';
     }
     if (value == "Piedade"){
         document.getElementById('form').action = 'https://formsubmit.co/claudioandrade.nid@gmail.com';
