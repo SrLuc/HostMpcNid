@@ -11,8 +11,17 @@ body {
 }
 
 .img-app{
+  mar
   width: 600px;
   height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  border-radius: 8px;  
+}
+
+.img-app-3{
+  margin-right: 20px;
+  width: 750px;
+  height: 369px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   border-radius: 8px;  
 }
