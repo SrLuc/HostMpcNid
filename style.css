@@ -83,6 +83,13 @@ body {
 /*Cartões de Cursos*/
 .row {
   text-align: center;
+  padding-bottom: 20px;
+}
+
+/*Cor de fundo dos cartões de cursos oferecidos*/
+.card:hover {
+  transform: scale(1.10);
+  transition: .5s;
 }
 
 /*Logo do Nid dentro dos Cartões*/
