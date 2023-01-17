@@ -11,7 +11,6 @@ body {
 }
 
 .img-app{
-  mar
   width: 600px;
   height: 400px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
@@ -81,6 +80,11 @@ body {
 
 .lead {
   margin-top: 25px;
+}
+
+.text-ft{
+  display: block;
+  margin-top: 10%;
 }
 
 /*Cabeçalho Sidebar*/
@@ -248,8 +252,8 @@ iframe {
   margin-top: 5%;
   border-radius: 10px;
   border: outset 1px solid gray;
-  width: 550px;
-  height: 450px;
+  width: 450px;
+  height: 350px;
 }
 
 /*Responsividad de Mapa Iframe*/
