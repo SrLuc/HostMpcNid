@@ -1,208 +1,229 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /*Corpo da Página*/
 body {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
-.img-app{
-  width: 600px;
-  height: 400px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-  border-radius: 8px;  
+/*Imagem de freature*/
+.img-app {
+  margin: 5px;
+	width: 600px;
+	height: 400px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+		rgba(0, 0, 0, 0.05) 0px 5px 10px;
+	border-radius: 8px;
 }
 
-.img-app-3{
-  margin-right: 20px;
-  width: 750px;
-  height: 369px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-  border-radius: 8px;  
+/*Imagem de freature*/
+.img-app-3 {
+  margin: 5px;
+	width: 600px;
+	height: 370px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+		rgba(0, 0, 0, 0.05) 0px 5px 10px;
+	border-radius: 8px;
 }
 
 /*Raiz de Variáveis*/
 :root {
-  --corDoCorpo: #0f1821;
-  --corPrimaria: #2f2d2ec0;
-  --corSecundaria: #;
-  --corTerciaria: #;
-  --corQuartenaria: #;
-  --sombraPadrao: ;
+	--corDoCorpo: #0f1821;
+	--corPrimaria: #2f2d2ec0;
+	--corSecundaria: #;
+	--corTerciaria: #;
+	--corQuartenaria: #;
+	--sombraPadrao: ;
 }
 
 /*Cabeçalho Bootstrap*/
 .navbar {
-  display: inline-block;
-  /* border-radius: 10px; */
-  /* margin: 2.5px; */
-  padding: 15px;
-  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
-  background-color: white;
+	display: inline-block;
+	padding: 15px;
+	box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+	background-color: white;
 }
 
 /*Logo do Nid2*/
-
 .logonid2 {
-  padding: 0.25em;
-  width: 100px;
-}
-
-.logonid2{
+	padding: 0.25em;
 	width: 100px;
 }
 
+/*logo do movimento pro criança do cabeçalho*/
 .logompc2 {
 	margin-left: 15px;
 	width: 100px;
-
 }
 
 /*Titulo e Texto da Pagina*/
 .banner {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
+/*banner principal da pagina*/
 .banner img {
-  width: 100%;
+	width: 100%;
 }
 
+/*Cartoea doa cursos oferecidos*/
+.course-card {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #212529;
+	transition: all 0.7s;
+}
+
+.hvr-sweep-to-right:hover {
+	font-weight: 500;
+}
+
+.hvr-sweep-to-left:hover {
+	font-weight: 500;
+}
+
+.hvr-sweep-to-bottom:hover {
+	font-weight: 500;
+}
+
+.hvr-sweep-to-top:hover {
+	font-weight: 500;
+}
+
+/*titulo que fica em cima dos cursos*/
 .title-cursos {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
 }
 
+/*texto das freatures*/
 .lead {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 
-.text-ft{
-  display: block;
-  margin-top: 10%;
+/*titulo dos textos das freatures*/
+.text-ft {
+	display: block;
+	margin-top: 10%;
 }
 
 /*Cabeçalho Sidebar*/
 .offcanvas-header {
-  border-radius: 10px;
-  margin: 5px;
+	border-radius: 10px;
+	margin: 5px;
 }
 
 /*Caixa de Cursos Oferecidos*/
 .container {
-  height: 100%;
-  border-radius: 10px;
-  margin-bottom: 5%;
+	height: 100%;
+	border-radius: 10px;
+	margin-bottom: 5%;
 }
 
 /*Cartões de Cursos*/
 .row {
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-/*Cor de fundo dos cartões de cursos oferecidos*/
-.card:hover {
-  transform: scale(1.10);
-  transition: .5s;
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 /*Logo do Nid dentro dos Cartões*/
 .me-auto {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 /*Informações sobre o Movimento pro Criança*/
 .container-featurettes {
-  padding: 1.5%;
+	padding: 1.5%;
 }
 
 .fw-normal {
-  margin-top: 20%;
+	margin-top: 20%;
 }
 
 /*Formulario do Psicosocial*/
 form {
-  display: flex;
-  justify-content: center;
-  padding: 1.5%;
+	display: flex;
+	justify-content: center;
+	padding: 1.5%;
 }
 
 .psico-form {
-  padding: 1.5%;
-  border-radius: 10px;
+	padding: 1.5%;
+	border-radius: 10px;
 }
 
 /*Titulo do Forumlário*/
 .form-title {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-bottom: 5%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-bottom: 5%;
 }
 
 /*Controle do Formulário*/
 .form-control {
-  width: 0%;
-  margin-bottom: 1%;
+	width: 0%;
+	margin-bottom: 1%;
 }
 
 /*Caixa do Botao do Forumlário*/
 .btn-div {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 /*Botao do Formulario*/
 .bt {
-  padding: 1.25%;
-  border-radius: 10px;
-  transition: 0.5s;
-  border: none;
+	padding: 1.25%;
+	border-radius: 10px;
+	transition: 0.5s;
+	border: none;
 }
 
 .bt:hover {
-  background-color: purple;
-  color: aliceblue;
+	background-color: purple;
+	color: aliceblue;
 }
 
+/*Rodapé da pagina*/
 .pt-cb {
-  text-align: center;
-  padding: 2.5%;
+	text-align: center;
+	padding: 2.5%;
 }
 
 /*Logo do Raymundo da fonte*/
 .img-footer-rdf {
-  width: 25%;
-  height: 10%;
-  margin-right: 5%;
+	width: 25%;
+	height: 10%;
+	margin-right: 5%;
 }
 
 /*Logo Divina Pharma da fonte*/
 .img-footer-dp {
-  width: 10%;
-  height: 10%;
-  margin-right: 5%;
+	width: 10%;
+	height: 10%;
+	margin-right: 5%;
 }
 
 /*Logo MPC*/
 .img-footer-mpc {
-  width: 12%;
-  height: 10%;
-  margin-right: 5%;
+	width: 12%;
+	height: 10%;
+	margin-right: 5%;
 }
 
 /*Logo Nid*/
 .img-footer-nid {
-  width: 15%;
-  height: 10%;
-  margin-right: 5%;
+	width: 15%;
+	height: 10%;
+	margin-right: 5%;
 }
 
 /* Adicionando filtro cinza nas logos do rodapé e colocando uma transição de 0.7seg */
@@ -210,8 +231,8 @@ form {
 .img-footer-mpc,
 .img-footer-nid,
 .img-footer-rdf {
-  filter: grayscale(100%);
-  transition: 0.7s;
+	filter: grayscale(100%);
+	transition: 0.7s;
 }
 
 /* Retirando o filtro cinza quando o mouse passar por cima e aproximando as logos */
@@ -219,27 +240,27 @@ form {
 .img-footer-mpc:hover,
 .img-footer-nid:hover,
 .img-footer-rdf:hover {
-  filter: grayscale(0%);
-  transform: scale(1.2);
+	filter: grayscale(0%);
+	transform: scale(1.2);
 }
 
 /*Descrição sobre voce*/
 .descricao {
-  margin-top: 1%;
+	margin-top: 1%;
 }
 
 /*Aviso de matricula*/
 .war-desc {
-  display: flex;
-  margin-top: 4%;
-  color: #006bf7;
+	display: flex;
+	margin-top: 4%;
+	color: #006bf7;
 }
 
 footer p {
-  display: flex;
-  justify-content: center;
-  min-width: 100%;
-  margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	min-width: 100%;
+	margin-top: 20px;
 }
 
 /* .wh-fd-mpc{
@@ -248,107 +269,107 @@ footer p {
 
 /*iframe do MPC*/
 iframe {
-  /* box-shadow: 0px 0px 5px 1px #8a8a8a; */
-  margin-top: 5%;
-  border-radius: 10px;
-  border: outset 1px solid gray;
-  width: 450px;
-  height: 350px;
+	/* box-shadow: 0px 0px 5px 1px #8a8a8a; */
+	margin-top: 5%;
+	border-radius: 10px;
+	border: outset 1px solid gray;
+	width: 450px;
+	height: 350px;
 }
 
 /*Responsividad de Mapa Iframe*/
 @media screen and (max-width: 1320px) {
-  .wh-fd-mpc {
-    margin-left: 0%;
-    margin-top: 3%;
-  }
+	.wh-fd-mpc {
+		margin-left: 0%;
+		margin-top: 3%;
+	}
 
-  iframe {
-    width: 500px;
-    height: 400px;
-  }
+	iframe {
+		width: 500px;
+		height: 400px;
+	}
 }
 
 @media screen and (max-width: 1200px) {
-  .wh-fd-mpc {
-    margin-left: 5%;
-    margin-top: 3%;
-  }
+	.wh-fd-mpc {
+		margin-left: 5%;
+		margin-top: 3%;
+	}
 
-  iframe {
-    width: 480px;
-    height: 400px;
-  }
+	iframe {
+		width: 480px;
+		height: 400px;
+	}
 }
 
 @media screen and (max-width: 1084px) {
-  .wh-fd-mpc {
-    margin-left: 5%;
-    margin-top: 3%;
-  }
+	.wh-fd-mpc {
+		margin-left: 5%;
+		margin-top: 3%;
+	}
 
-  iframe {
-    width: 450px;
-    height: 380px;
-  }
+	iframe {
+		width: 450px;
+		height: 380px;
+	}
 }
 
 @media screen and (max-width: 1020px) {
-  .wh-fd-mpc {
-    margin-left: 6%;
-    margin-top: 3%;
-  }
+	.wh-fd-mpc {
+		margin-left: 6%;
+		margin-top: 3%;
+	}
 
-  iframe {
-    width: 420px;
-    height: 380px;
-  }
+	iframe {
+		width: 420px;
+		height: 380px;
+	}
 }
 
 @media screen and (max-width: 930px) {
-  .wh-fd-mpc {
-    margin-left: 6%;
-    margin-top: 3%;
-  }
+	.wh-fd-mpc {
+		margin-left: 6%;
+		margin-top: 3%;
+	}
 
-  iframe {
-    width: 400px;
-    height: 360px;
-  }
+	iframe {
+		width: 400px;
+		height: 360px;
+	}
 }
 
 @media screen and (max-width: 890px) {
-  .wh-fd-mpc {
-    margin-left: 6%;
-    margin-top: 3%;
-  }
+	.wh-fd-mpc {
+		margin-left: 6%;
+		margin-top: 3%;
+	}
 
-  iframe {
-    width: 370px;
-    height: 360px;
-  }
+	iframe {
+		width: 370px;
+		height: 360px;
+	}
 }
 
 @media screen and (max-width: 890px) {
-  .wh-fd-mpc {
-    margin-left: 0 auto;
-    margin-top: 3%;
-  }
+	.wh-fd-mpc {
+		margin-left: 0 auto;
+		margin-top: 3%;
+	}
 
-  iframe {
-    width: 350px;
-    height: 360px;
-  }
+	iframe {
+		width: 350px;
+		height: 360px;
+	}
 }
 
 @media screen and (max-width: 770px) {
-  .wh-fd-mpc {
-    margin-left: 0;
-    margin-top: 3%;
-  }
+	.wh-fd-mpc {
+		margin-left: 0;
+		margin-top: 3%;
+	}
 
-  iframe {
-    width: 500px;
-    height: 400px;
-  }
+	iframe {
+		width: 500px;
+		height: 400px;
+	}
 }
